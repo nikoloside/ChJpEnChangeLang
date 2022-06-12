@@ -1,0 +1,22 @@
+{
+  "name": "ChJpEnChangeLang",
+  "description": "This extension will switch the Microsoft Document Language among Ch Jp En.",
+  "manifest_version": 2,
+  "version": "1.0",
+  "icons":
+  {
+      "128":"icon.png"
+  },
+  "browser_action":
+  {
+      "default_icon": "icon.png",
+      "default_title": "アラート"
+  },
+  "background":
+  {
+      "scripts": [ "script.js" ]
+  },
+  "permissions": [
+    "tabs"
+ ]
+}
